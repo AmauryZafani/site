@@ -79,6 +79,31 @@ section img{
 .container img { max-width: 300px; }
 
 
+input,
+textarea {
+  font-family: "Roboto";
+  outline: none;
+}
+
+#form {
+  margin: 100px 0;
+  width: 40%;  
+  }
+  .input:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 8px 52px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+
 footer {
     text-align: center;
     font-size: small;
