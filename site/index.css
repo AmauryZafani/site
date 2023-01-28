@@ -87,8 +87,15 @@ textarea {
 
 #form {
   margin: 100px 0;
-  width: 40%;  
   }
+
+  input[type="text"]  ,
+  textarea{
+    width: 400px;
+    height: 25px;
+}
+
+  
   .input:not(:last-child) {
     margin-bottom: 10px;
   }
